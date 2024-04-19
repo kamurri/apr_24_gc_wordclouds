@@ -36,7 +36,7 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX])
 server = app.server
 
 app.layout = html.Div([
-    html.H1(children='General Confernce Wordclouds: April 2024'),
+    html.H1(children='General Conference Word Clouds: April 2024'),
     html.Div(children='''
         A web application to visualize word frequencies in general conference addresses.
     '''),
